@@ -1,0 +1,159 @@
+/*common Start*/
+@font-face{
+	font-family: MYRIADPRO-BOLD;
+	src:url(../fonts/myriadpro/MYRIADPRO-BOLD.OTF);
+}
+@font-face{
+	font-family: MYRIADPRO-COND;
+	src:url(../fonts/myriadpro/MYRIADPRO-COND.OTF);
+}
+@font-face{
+	font-family: MYRIADPRO-REGULAR;
+	src:url(../fonts/myriadpro/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+	font-family: Quicksand;
+	src:url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+@font-face{
+	font-family: Rokkitt;
+	src:url(../fonts/Rokkitt/Rokkitt-Regular.ttf);
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: MYRIADPRO-REGULAR;
+	font-size: 18px;
+	font-weight: 400;
+}
+/*head1 start*/
+.banner{
+	background-image: url(../images/image_purple.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.head_1{
+	background-color: none;
+}
+
+.cf_1{
+	margin-right: 60px;
+    margin-left: 60px;
+}
+.log_1{
+	font-family: MYRIADPRO-COND;
+    font-size: 20.31px;
+    font-weight: 400;
+	color: white !important;
+}
+.men_1 ul{}
+.men_1 ul li{
+	font-family: MYRIADPRO-COND;
+    font-size: 19.19px;
+    font-weight: 400;
+    
+}
+.men_1 ul li a{
+	color: white !important;
+	transition: 0.3s;
+}
+.men_1 ul li:first-child a{
+	text-decoration: underline !important;
+}
+.men_1 ul li:last-child a{
+	padding-right: 0 !important;
+}
+.men_1 ul li a:hover{
+	color: #9b59b6 !important;
+}
+/*head1 end*/
+/*head2 start*/
+.head2{
+
+}
+.cf_2{
+	margin-top: 150px;
+    margin-bottom: 170px;
+	text-align: center;
+}
+.cf_2 h1{
+	font-family: Rokkitt;
+	font-size: 59.77;
+	font-weight: 400;
+	color: white;
+}
+.h_1{
+	width: 50%;
+	height: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+}
+.cf_2 p{
+	margin-top: 15px;
+	font-family: Quicksand;
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+}
+/*head2 end*/
+/*button start*/
+.b_1{
+	text-align: center;
+}
+.btn_1{
+	width: 210px;
+    height: 50px;
+    background-color: #9b59b6;
+    font-family: 'Rokkitt';
+    font-size: 24px;
+    font-weight: 400 !important;
+    color: white;
+    outline: 5px;
+    box-shadow: 0 0 0 0.25rem rgb(56 128 234 / 25%);
+}
+/*button end*/
+/*feature start*/
+.feature{}
+.f_1{
+	margin-top: 150px;
+    text-align: center;
+}
+.f_1 h1{
+	font-family: MYRIADPRO-BOLD;
+    font-size: 32px;
+    font-weight: 700;
+    color: #9b59b6;
+    word-spacing: 20px;
+}
+.f_1 p{
+	padding: 0 63px;
+	margin-top: 60px;
+    color: #95a5a6;
+}
+.f_item{
+	margin-top: 80px;
+}
+.f_item h2{
+	margin-top: 38px;
+    font-family: 'MYRIADPRO-BOLD';
+    font-size: 20px;
+    font-weight: 700;
+    color: #9b59b6;
+}
+.f_icon{
+	font-size: 58px;
+    color: #9b59b6;
+}
+.f_icon i{}
+.fp_2{
+	margin-top:35px;
+}
+.fp_2 p{
+	font-size: 16px;
+    color: #ced5d5;
+    padding: 0 31px;
+}
+
+/*feature end*/
